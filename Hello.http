@@ -8,4 +8,22 @@
 ### 기본 사용
 GET https://www.devbeginner.com
 
+### 직접 JSON 사용
+POST https://localhost:8080/group
+Content-Type: application/json
+
+{
+  "groupName": "그룹명",
+  "members": [
+    "회원1",
+    "회원2",
+    "회원3"
+  ],
+  "date":{
+    "year": 2018,
+    "month": 1,
+    "day": 24
+  }
+}
+
 ###
