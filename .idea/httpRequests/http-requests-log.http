@@ -1,3 +1,58 @@
+GET http://localhost:8080/cookie
+Cookie: user=jutopia
+
+<> 2019-05-28T052833.200.txt
+
+###
+
+GET http://localhost:8080/cookie
+Cookie: user=jutopia
+
+<> 2019-05-28T052720.404.json
+
+###
+
+GET http://localhost:8080/real/hello
+Authorization: PRODUCTION
+
+<> 2019-05-28T052409.404.json
+
+###
+
+GET http://localhost:8080/dev/hello
+Authorization: DEV
+
+<> 2019-05-28T052406.200.txt
+
+###
+
+GET http://localhost:8080/dev/hello
+
+<> 2019-05-28T052402.401.json
+
+###
+
+GET http://localhost:8080/hello
+
+<> 2019-05-28T052358.200.txt
+
+###
+
+GET http://localhost:8080/hello
+
+###
+
+GET http://localhost:8080/dev/hello
+
+###
+
+POST http://localhost:8080/group
+Content-Type: application/json
+
+< C:/Users/주성/Desktop/Jutudy/InteliJ/spring-webservice/post.json
+
+###
+
 POST http://localhost:8080/group
 Content-Type: application/json
 

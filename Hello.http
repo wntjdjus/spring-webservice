@@ -46,4 +46,8 @@ Authorization: DEV
 GET http://localhost:8080/real/hello
 Authorization: PRODUCTION
 
+### Cookie
+GET http://localhost:8080/cookie
+Cookie: user=jutopia
+
 ###

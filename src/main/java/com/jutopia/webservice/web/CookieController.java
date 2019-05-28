@@ -2,7 +2,9 @@ package com.jutopia.webservice.web;
 
 import org.springframework.web.bind.annotation.CookieValue;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
+@RestController
 public class CookieController {
 
     @GetMapping("/cookie")
