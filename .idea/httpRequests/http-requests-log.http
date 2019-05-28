@@ -1,6 +1,15 @@
 POST http://localhost:8080/group
 Content-Type: application/json
 
+< C:/Users/주성/Desktop/Jutudy/InteliJ/spring-webservice/post.json
+
+<> 2019-05-28T051024.200.json
+
+###
+
+POST http://localhost:8080/group
+Content-Type: application/json
+
 {
   "groupName": "그룹명",
   "members": [
