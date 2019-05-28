@@ -1,3 +1,62 @@
+POST http://localhost:8080/group
+Content-Type: application/json
+
+{
+  "groupName": "그룹명",
+  "members": [
+    "회원1",
+    "회원2",
+    "회원3"
+  ],
+  "date":{
+    "year": 2018,
+    "month": 1,
+    "day": 24
+  }
+}
+
+<> 2019-05-28T050706.200.json
+
+###
+
+POST https://localhost:8080/group
+Content-Type: application/json
+
+{
+  "groupName": "그룹명",
+  "members": [
+    "회원1",
+    "회원2",
+    "회원3"
+  ],
+  "date":{
+    "year": 2018,
+    "month": 1,
+    "day": 24
+  }
+}
+
+###
+
+POST https://localhost:8080/group
+Content-Type: application/json
+
+{
+  "groupName": "그룹명",
+  "members": [
+    "회원1",
+    "회원2",
+    "회원3"
+  ],
+  "date":{
+    "year": 2018,
+    "month": 1,
+    "day": 24
+  }
+}
+
+###
+
 GET https://www.devbeginner.com
 
 <> 2019-05-28T045741.200.html
